@@ -35,5 +35,11 @@
     <Setting Name="EnableStats" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
+    <Setting Name="WeatherAPIKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">YOUR_OPENWEATHERMAP_API_KEY_HERE</Value>
+    </Setting>
+    <Setting Name="ScrollSpeed" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

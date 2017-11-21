@@ -155,5 +155,29 @@ namespace LEDDisplay.Properties {
                 this["EnableStats"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("YOUR_OPENWEATHERMAP_API_KEY_HERE")]
+        public string WeatherAPIKey {
+            get {
+                return ((string)(this["WeatherAPIKey"]));
+            }
+            set {
+                this["WeatherAPIKey"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("100")]
+        public int ScrollSpeed {
+            get {
+                return ((int)(this["ScrollSpeed"]));
+            }
+            set {
+                this["ScrollSpeed"] = value;
+            }
+        }
     }
 }
