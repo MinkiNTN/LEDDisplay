@@ -52,6 +52,9 @@
   <ItemGroup>
     <Compile Include="DisplayProvider.cs" />
     <Compile Include="DisplayProvider_GMail.cs" />
+    <Compile Include="DisplayProvider_Stats.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DisplayProvider_Time.cs" />
     <Compile Include="DisplayProvider_Weather.cs" />
     <Compile Include="FrameBuffer.cs" />

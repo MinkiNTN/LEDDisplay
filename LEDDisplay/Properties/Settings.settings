@@ -32,5 +32,8 @@
     <Setting Name="GMailFormat" Type="System.String" Scope="User">
       <Value Profile="(Default)">New mail: $unread$</Value>
     </Setting>
+    <Setting Name="EnableStats" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
