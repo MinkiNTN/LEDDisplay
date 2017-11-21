@@ -25,7 +25,7 @@ namespace LEDDisplay
             try
             {
                 // get our url
-                string url = "http://api.openweathermap.org/data/2.5/weather?q=" + Properties.Settings.Default.WeatherLocation + "&units=" + Properties.Settings.Default.WeatherUnits + "&mode=xml";
+                string url = "http://api.openweathermap.org/data/2.5/weather?q=" + Properties.Settings.Default.WeatherLocation + "&units=" + Properties.Settings.Default.WeatherUnits + "&mode=xml&APPID=" + Properties.Settings.Default.WeatherAPIKey;
                 WebRequest request = WebRequest.Create(url);
                 Stream urlStream = request.GetResponse().GetResponseStream();
                 StreamReader streamReader = new StreamReader(urlStream);

@@ -35,5 +35,8 @@
     <Setting Name="EnableStats" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
+    <Setting Name="WeatherAPIKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">YOUR_OPENWEATHERMAP_API_KEY_HERE</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
