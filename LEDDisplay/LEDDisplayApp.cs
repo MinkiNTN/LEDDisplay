@@ -64,7 +64,7 @@ namespace LEDDisplay
             trayIcon.Visible = true;
 
             // start our scroll timer
-            scrollTimer = new System.Timers.Timer(100);
+            scrollTimer = new System.Timers.Timer(Properties.Settings.Default.ScrollSpeed);
             scrollTimer.Elapsed += scrollTimer_Elapsed;
             scrollTimer.Enabled = true;
 
